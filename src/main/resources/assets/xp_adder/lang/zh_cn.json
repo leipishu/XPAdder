@@ -1,0 +1,8 @@
+{
+  "item.xp_adder.xp_tool": "经验添加器",
+  "itemgroup.xp_adder.op_tools": "管理员工具",
+  "command.xp_adder.addxp.success": "已向经验池添加 %s 经验值。",
+  "command.xp_adder.addxp.failure": "无法添加经验值。",
+  "command.xp_adder.extract.success": "已从经验池提取 %s 经验值。",
+  "command.xp_adder.extract.failure": "经验池中没有经验值可提取或已经领取过经验值。"
+}

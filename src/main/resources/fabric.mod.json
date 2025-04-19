@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "xp-adder",
+	"version": "${version}",
+	"name": "XP Adder",
+	"description": "用于服务器为玩家发放定期经验",
+	"authors": [
+		"leipishu"
+	],
+	"contact": {
+		"homepage": "https://xpadder.leipishu.top/",
+		"sources": "https://github.com/leipishu"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/xp_adder/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"top.leipishu.xpadder.XPAdder"
+		],
+		"client": [
+			"top.leipishu.xpadder.XPAdderClient"
+		]
+	},
+	"mixins": [
+		"xp-adder.mixins.json",
+		{
+			"config": "xp-adder.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.12",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
