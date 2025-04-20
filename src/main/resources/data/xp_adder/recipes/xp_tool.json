@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EXE",
+    "XEX",
+    "EXE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald_block"
+    },
+    "X": {
+      "item": "minecraft:experience_bottle"
+    }
+  },
+  "result": {
+    "item": "xp_adder:xp_tool",
+    "count": 1
+  }
+}
