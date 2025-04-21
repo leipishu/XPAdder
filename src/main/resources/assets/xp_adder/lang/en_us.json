@@ -1,4 +1,5 @@
 {
   "item.xp_adder.xp_tool": "XP Tool",
-  "itemgroup.xp_adder.op_tools": "OP Tools"
+  "itemgroup.xp_adder.xp_kit": "XP Kit",
+  "item.xp_adder.xp_bottle_plus": "§eSuper XP Bottle"
 }

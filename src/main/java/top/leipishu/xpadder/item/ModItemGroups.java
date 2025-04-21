@@ -10,13 +10,14 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup OP_TOOLS = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(XPAdder.MOD_ID, "op_tools"),
+    public static final ItemGroup XP_TOOLS = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(XPAdder.MOD_ID, "xp_kit"),
             FabricItemGroup.builder()
-                    .displayName(Text.translatable("itemgroup." + XPAdder.MOD_ID + ".op_tools"))
+                    .displayName(Text.translatable("itemgroup." + XPAdder.MOD_ID + ".xp_kit"))
                     .icon(() -> new ItemStack(ModItems.XP_TOOL))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.XP_TOOL);
+                        entries.add(ModItems.XP_BOTTLE_PLUS);
                     })
                     .build());
 

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "xp_adder:item/xp_bottle_plus"
+  }
+}
