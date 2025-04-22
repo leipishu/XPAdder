@@ -17,6 +17,15 @@ public class XPBottlePlus extends Item {
     public XPBottlePlus(Settings settings) {
         super(settings);
     }
+    @Override
+    public boolean hasGlint(ItemStack stack) {
+        return true;
+    }
+
+    @Override
+    public boolean isEnchantable(ItemStack stack) {
+        return false;
+    }
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity player, Hand hand) {
