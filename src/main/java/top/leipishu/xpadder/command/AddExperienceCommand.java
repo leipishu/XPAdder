@@ -13,7 +13,7 @@ public class AddExperienceCommand {
         CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> {
             dispatcher.register(
                     CommandManager.literal("xp-adder")
-                            .then(CommandManager.literal("addxp")
+                            .then(CommandManager.literal("add")
                                     .requires(source -> source.hasPermissionLevel(2)) // 确认权限等级
                                     .then(CommandManager.argument("amount", IntegerArgumentType.integer(0))
                                             .executes(AddExperienceCommand::addExperienceToGlobalStorage))
