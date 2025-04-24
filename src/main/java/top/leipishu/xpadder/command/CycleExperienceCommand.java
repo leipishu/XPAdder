@@ -49,12 +49,15 @@ public class CycleExperienceCommand {
         scheduler = Executors.newSingleThreadScheduledExecutor();
         isCycling = true;
 
+        // 将分钟转换为毫秒
+        long durationInMilliseconds = duration * 60 * 1000L;
+
         scheduler.scheduleAtFixedRate(() -> {
             if (server != null) {
                 XPAdder.experienceList.add(amount);
                 server.sendMessage(Text.translatable("command.xp_adder.cycle.added", amount));
             }
-        }, 0, duration, TimeUnit.MILLISECONDS);
+        }, 0, durationInMilliseconds, TimeUnit.MILLISECONDS);
 
         context.getSource().sendFeedback(() -> Text.translatable("command.xp_adder.cycle.started", amount, duration), false);
         return 1;

@@ -2,9 +2,13 @@
   "item.xp_adder.xp_tool": "经验添加器",
   "item.xp_adder.xp_bottle_plus": "§e超级附魔之瓶",
   "itemgroup.xp_adder.xp_kit": "经验工具",
-  "command.xp_adder.addxp.success": "已向经验池添加 %s 经验值。",
-  "command.xp_adder.addxp.failure": "无法添加经验值。",
+  "command.xp_adder.add.success": "已向经验池添加 %s 经验值。",
   "command.xp_adder.extract.success": "已从经验池提取 %s 经验值。",
   "command.xp_adder.extract.failure": "经验池中没有经验值可提取或已经领取过经验值。",
-  "command.xp_adder.xpbottleplus.success": "成功领取经验！"
+  "command.xp_adder.xpbottleplus.success": "成功领取经验！",
+  "command.xp_adder.cycle.added": "循环任务：已添加经验成功！",
+  "command.xp_adder.cycle.already_running": "循环任务：已经在运行中！",
+  "command.xp_adder.cycle.not_running": "循环任务：未运行！",
+  "command.xp_adder.cycle.stopped": "循环任务：已停止！",
+  "command.xp_adder.cycle.started": "循环任务：已启动！"
 }

@@ -25,7 +25,7 @@ public class AddExperienceCommand {
     private static int addExperienceToGlobalStorage(CommandContext<ServerCommandSource> context) {
         int amount = IntegerArgumentType.getInteger(context, "amount");
         XPAdder.experienceList.add(amount); // 将每次添加的值记录到列表中
-        context.getSource().sendFeedback(() -> Text.translatable("command.xp_adder.addxp.success", amount), false);
+        context.getSource().sendFeedback(() -> Text.translatable("command.xp_adder.add.success", amount), false);
         return 1;
     }
 }

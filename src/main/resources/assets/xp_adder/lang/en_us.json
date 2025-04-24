@@ -1,5 +1,10 @@
 {
   "item.xp_adder.xp_tool": "XP Tool",
   "itemgroup.xp_adder.xp_kit": "XP Kit",
-  "item.xp_adder.xp_bottle_plus": "§eSuper XP Bottle"
+  "item.xp_adder.xp_bottle_plus": "§eSuper XP Bottle",
+  "command.xp_adder.cycle.added": "Cycle Task: Added!",
+  "command.xp_adder.cycle.already_running": "Cycle Task: Already Running!",
+  "command.xp_adder.cycle.not_running": "Cycle Task: Not Running!",
+  "command.xp_adder.cycle.stopped": "Cycle Task: Stopped!",
+  "command.xp_adder.cycle.started": "Cycle Task: Started!"
 }
